@@ -62,7 +62,7 @@ In-line math: $x + y = z$
 Block math:
 
 $$
-f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+f\left( x \right) = \;\frac{2\left( {x + 4} \right)\left( {x - 4} \right)}{\left( {x + 4} \right)\left( {x + 1} \right)}
 $$
 
 ---
@@ -136,9 +136,9 @@ Press the `S` key to view the speaker notes!
 Customize the slide style and background
 
 ```markdown
-{{</* slide background-image="/media/boards.jpg" */>}}
-{{</* slide background-color="#0000FF" */>}}
-{{</* slide class="my-style" */>}}
+{{< slide background-image="/media/boards.jpg" >}}
+{{< slide background-color="#0000FF" >}}
+{{< slide class="my-style" >}}
 ```
 
 ---
